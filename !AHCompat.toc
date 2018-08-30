@@ -1,0 +1,10 @@
+## Title: AHCompat
+## Notes: Fix Auction House incompatibility with olders addons.
+##
+## Interface: 80000
+##
+## Version: 0.0.1
+## Author: Tieonlinux
+##
+
+Core.lua
