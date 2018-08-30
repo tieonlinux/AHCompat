@@ -10,7 +10,7 @@ local function GetWowBuild()
     return tonumber(buildstr)
 end
 
-local function initial_checks()
+local function InitialChecks()
     assert(GetWowBuild() >= 27481, "this addon isn't for you")
     assert(PostAuction and type(PostAuction) == "function")
 end
@@ -31,9 +31,9 @@ local function HookStartAuction()
 end
 
 
-local function init()
-    initial_checks()
+local function Init()
+    InitialChecks()
     HookStartAuction()
 end
 
-return init()
+return Init()

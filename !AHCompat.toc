@@ -3,8 +3,11 @@
 ##
 ## Interface: 80000
 ##
-## Version: 0.0.1
+## Version: 1.0.0
 ## Author: Tieonlinux
+##
+## X-Website https://github.com/tieonlinux/AHCompat
+## X-Date 2018-08-30
 ##
 
 Core.lua
